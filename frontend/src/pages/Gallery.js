@@ -7,40 +7,41 @@ class Gallery extends Component {
     constructor() {
         super()
         this.state = {
-            buku: [{
-                    isbn: "12345",
-                    judul: "Bumi",
-                    penulis: "Tere Liye",
-                    penerbit: "CV Harapan Kita",
-                    harga: 90000,
-                    cover: "https://i.pinimg.com/564x/e1/df/fc/e1dffcf4f2057935640e8a498dc61db9.jpg"
-                },
-                {
-                    isbn: "12346",
-                    judul: "Bulan",
-                    penulis: "Tere Liye",
-                    penerbit: "CV Nusa Bangsa",
-                    harga: 80000,
-                    cover: "https://i.pinimg.com/564x/53/67/d3/5367d3db20b2a17248c3885fcf56e58c.jpg"
-                },
-                {
-                    isbn: "489847",
-                    judul: "Jennie",
-                    penulis: "Fiskah Syela",
-                    penerbit: "GTW",
-                    harga: 80000,
-                    cover: "https://i.pinimg.com/564x/e1/ab/b3/e1abb306c39e5c8216f0cce5aaf29daa.jpg"
-                },
-            ],
-            action: "",
-            isbn: "",
-            judul: "",
-            penulis: "",
-            penerbit: "",
-            harga: 0,
-            cover: "",
-            selectedItem: null,
-        }
+          buku: [
+            {
+              isbn: "12345",
+              judul: "Bumi",
+              penulis: "Tere Liye",
+              penerbit: "CV Harapan Kita",
+              harga: 90000,
+              cover:"https://i.pinimg.com/564x/e1/df/fc/e1dffcf4f2057935640e8a498dc61db9.jpg",
+            },
+            {
+              isbn: "12346",
+              judul: "Bulan",
+              penulis: "Tere Liye",
+              penerbit: "CV Nusa Bangsa",
+              harga: 80000,
+              cover: "https://i.pinimg.com/564x/53/67/d3/5367d3db20b2a17248c3885fcf56e58c.jpg",
+            },
+            {
+              isbn: "489847",
+              judul: "Matahari",
+              penulis: "Tere Liye",
+              penerbit: "Gramedia",
+              harga: 100000,
+              cover: "https://i.pinimg.com/564x/41/58/69/4158694a946d856a699a683556703d4f.jpg",
+            },
+          ],
+          action: "",
+          isbn: "",
+          judul: "",
+          penulis: "",
+          penerbit: "",
+          harga: 0,
+          cover: "",
+          selectedItem: null,
+        };
         this.state.filterBuku = this.state.buku
     }
 
